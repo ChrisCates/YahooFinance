@@ -1,0 +1,70 @@
+export interface ValuationInterface {
+    date: string;
+    marketCap: string;
+    enterpriseValue: string;
+    trailingPE: string;
+    forwardPE: string;
+    PEGRatio: string;
+    priceSale: string;
+    priceBook: string;
+    enterpriseValueRevenue: string;
+    enterpriseValueEBITDA: string;
+}
+export interface StatsInterface {
+    valuations: Array<ValuationInterface>;
+    highlights: {
+        fiscalYearEnd: string;
+        mostRecentQuarter: string;
+        profitMargin: string;
+        operatingMargin: string;
+        returnOnAssets: string;
+        returnOnEquity: string;
+        revenue: string;
+        revenuePerShare: string;
+        quarterlyRevenueGrowth: string;
+        grossProfit: string;
+        EBITDA: string;
+        netIncomeToCommon: string;
+        dilutedEPS: string;
+        quarterlyEarningsGrowth: string;
+        totalCash: string;
+        totalCashPerShare: string;
+        totalDebt: string;
+        totalDebtEquity: string;
+        currentRatio: string;
+        bookValuePerShare: string;
+        operatingCashFlow: string;
+        leveredFreeCashFlow: string;
+    };
+    tradingInfo: {
+        beta5Y: string;
+        yearChange: string;
+        spxYearChange: string;
+        yearHigh: string;
+        yearLow: string;
+        ma50: string;
+        ma200: string;
+        avgVol3m: string;
+        avgVol10d: string;
+        sharesOutstanding: string;
+        float: string;
+        insiderPct: string;
+        institutionPct: string;
+        sharesShort: string;
+        shortRatio: string;
+        shortPctFloat: string;
+        shortPctShares: string;
+        sharesShortPrior: string;
+        forwardDividendRate: string;
+        forwardDividendYield: string;
+        trailingDividendRate: string;
+        trailingDividendYield: string;
+        averageDividendYield: string;
+        payoutRatio: string;
+        dividendDate: string;
+        exDividendDate: string;
+        lastSplitFactor: string;
+        lastSplitDate: string;
+    };
+}
+export declare function GetStats(symbol: string): Promise<StatsInterface>;
