@@ -1,0 +1,51 @@
+{
+  "name": "@chriscates/yahoofinance-docs",
+  "version": "1.0.0",
+  "repository": "keybase://private/chriscates/YahooFinance",
+  "author": "Chris Cates <hello@chriscates.ca>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next --port 4200",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export -o build",
+    "lint": "eslint ./**/*.{ts,tsx,js,jsx}"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-styled-components": "^1.11.1",
+    "emotion-theming": "^10.0.27",
+    "eslint": "^7.5.0",
+    "eslint-plugin-simple-import-sort": "5.0.3",
+    "gaussian-analytics": "^0.6.1",
+    "immutability-helper": "^3.1.1",
+    "moment-timezone": "^0.5.31",
+    "next": "^9.5.1",
+    "next-fonts": "^1.4.0",
+    "next-images": "^1.4.1",
+    "next-redux-wrapper": "^6.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-redux": "^7.2.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "superagent": "^6.0.0",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.1",
+    "@types/superagent": "^4.1.9",
+    "@typescript-eslint/eslint-plugin": "3.6.0",
+    "@typescript-eslint/parser": "3.6.0"
+  }
+}
