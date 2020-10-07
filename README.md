@@ -1,7 +1,7 @@
 # Yahoo Finance
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![NPM](https://img.shields.io/badge/version-1.0.1-blue.svg)
+![NPM](https://img.shields.io/badge/version-1.0.4-blue.svg)
 [![Build Status](https://travis-ci.org/ChrisCates/YahooFinance.svg?branch=master)](https://travis-ci.org/ChrisCates/YahooFinance)
 [![codecov](https://codecov.io/gh/ChrisCates/YahooFinance/branch/master/graph/badge.svg?token=SA6QDBGQGZ)](undefined)
 
