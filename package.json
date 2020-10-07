@@ -1,6 +1,6 @@
 {
   "name": "@chriscates/yahoofinance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/src/Export.js",
   "repository": "keybase://private/chriscates/YahooFinance",
   "author": "Chris Cates <hello@chriscates.ca>",
@@ -12,7 +12,7 @@
     "codecov": "nyc report --reporter=text-lcov | codecov --pipe --token=e183717c-6542-4e31-bb43-8d338afb1a23"
   },
   "bin": {
-    "yf": "dist/src/Yahoo.js"
+    "yf": "node ./dist/src/Yahoo.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
